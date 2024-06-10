@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALGONotes Book</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Register</h1>
+        <form action="/register" method="post">
+          <legend>Username</legend>
+          <input type="text" placeholder="username" name="username" required />
+          <legend>Email</legend>
+          <input type="email" name="email" required />
+          <legend>Password</legend>
+          <input
+            type="password"
+            placeholder="password"
+            name="password"
+            required
+          />
+          <legend>Confirm Password</legend>
+          <input
+            type="password"
+            placeholder="confirm password"
+            name="confirmPassword"
+            required
+          />
+          <br /><br />
+          <input type="submit" value="register" />
+        </form>
+        <br />
+        <br />
+        <button><a href="/login">Have account?</a></button>
+      </section>
+      <br />
+    </main>
+  </body>
+</html>
